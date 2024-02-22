@@ -1,0 +1,138 @@
+.ready {
+    margin-bottom: 120px;
+    background-image: url(../Ready/ready.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.readyWrapper {
+    max-width: 520px;
+    padding: 120px 0px;
+}
+
+.readyWrapper>.subheading {
+    color: rgb(215, 116, 116);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+}
+
+.readyWrapper>.heading {
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 13px;
+}
+
+.readyWrapper>.info {
+    font-family: Libre Franklin;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: rgb(108, 108, 108);
+    margin-bottom: 30px;
+}
+
+.readyWrapper>.info>span {
+    color: rgb(172, 19, 19);
+    text-decoration: underline;
+}
+
+@media (max-width: 1366px) {
+    .readyWrapper>.heading {
+        font-size: 34px;
+        margin-bottom: 11px;
+    }
+
+    .readyWrapper>.subheading {
+        font-size: 13px;
+        margin-bottom: 4px;
+    }
+
+    .readyWrapper>.info {
+        margin-bottom: 27px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .readyWrapper>.heading {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .ready {
+        margin-bottom: 80px;
+    }
+
+    .readyWrapper>.heading {
+        font-size: 30px;
+        margin-bottom: 6px;
+    }
+
+    .readyWrapper>.subheading {
+        font-size: 12px;
+        margin-bottom: 0px;
+    }
+
+    .readyWrapper>.info {
+        margin-bottom: 24px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 800px) {
+    .readyWrapper>.heading {
+        margin-bottom: 5px;
+    }
+
+    .readyWrapper>.subheading {
+        font-size: 11px;
+        margin-bottom: 0px;
+    }
+
+    .readyWrapper>.info {
+        max-width: 400px;
+        margin-bottom: 27px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 600px) {
+    .readyWrapper>.heading {
+        margin-bottom: 0px;
+        font-size: 26px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+
+    .readyWrapper>.info {
+        margin-bottom: 22px;
+        font-size: 13px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .readyWrapper>.info {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 450px) {
+    .readyWrapper>.heading {
+        font-size: 24px;
+    }
+}

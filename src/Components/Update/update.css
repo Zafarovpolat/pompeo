@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.update>.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 162px;
+}
+
+.updateImg {
+    margin-bottom: 40px;
+}
+
+.update>.container>.subheading {
+    color: rgb(215, 116, 116);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.update>.container>.heading {
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 63px;
+}
+
+.updateForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 42px;
+    width: 100%;
+}
+
+.updateForm>div {
+    display: flex;
+    gap: 5px;
+}
+
+.updateFormInp {
+    max-width: 500px;
+    width: 100%;
+}
+
+.updateFormInp>input {
+    width: 70%;
+    color: rgb(161, 161, 161);
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    padding-left: 30px;
+    border: 1px solid rgb(235, 235, 235);
+}
+
+.updateFormInp>div {
+    width: 30%;
+}
+
+.updateFormInp>div>.btn {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 13px 7px;
+    text-transform: uppercase;
+    border: 1px solid black;
+}
+
+.updateFormInp>div>.btn:hover {
+    background-color: transparent;
+    color: black;
+}
+
+.updateFormCheck {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.updateFormCheck>label {
+    color: rgb(161, 161, 161);
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.updateFormCheck>label:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+
+    .update>.container {
+        padding-bottom: 102px;
+    }
+
+    .update>.container>.subheading {
+        margin-bottom: 30px;
+    }
+
+    .update>.container>.heading {
+        margin-bottom: 50px;
+    }
+
+    .updateImg {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 750px) {
+
+    .update>.container>.subheading {
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+
+    .update>.container {
+        padding-bottom: 52px;
+    }
+
+    .update>.container>.heading {
+        line-height: 30px;
+        font-size: 30px;
+    }
+
+    .updateFormInp {
+        width: 80%;
+    }
+
+    .updateForm {
+        gap: 30px;
+    }
+
+    .updateFormInp>div {
+        width: 40%;
+    }
+
+    .updateFormInp>input {
+        width: 60%;
+    }
+
+    .updateFormInp>div>.btn {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .update>.container {
+        padding-bottom: 80px;
+    }
+
+    .update>.container>.subheading {
+        margin-bottom: 5px;
+    }
+
+    .update>.container>.heading {
+        line-height: 40px;
+        font-size: 26px;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .update>.container>.heading {
+        font-size: 24px;
+    }
+}

@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.vaseItem {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    gap: 85px;
+}
+
+.vaseItemImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.vaseItemImg>img {
+    z-index: 3;
+}
+
+.vaseItemImg::before {
+    content: "";
+    background-color: rgb(245, 245, 245);
+    left: 0;
+    right: 0;
+    top: 23%;
+    bottom: 23%;
+    position: absolute;
+}
+
+.vaseItemText {
+    text-align: left;
+    max-width: 400px;
+    justify-self: start;
+}
+
+.vaseItemText>.heading {
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 23px;
+}
+
+.vaseItemText>.info {
+    color: rgb(108, 108, 108);
+    font-family: Libre Franklin;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 27px;
+}
+
+.vaseItemText>.link {
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 14px;
+    text-transform: none;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+.vaseItemText>.link:hover {
+    color: rgb(215, 116, 116);
+}
+
+@media (max-width: 1000px) {
+    .vaseItemImg>img {
+        width: 70%;
+    }
+
+    .vaseItemText>.heading {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .vaseItemText>.info {
+        font-size: 13px;
+        margin-bottom: 24px;
+    }
+}
+
+@media (max-width: 900px) {
+
+    .vaseItemText>.heading {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .vaseItemText>.info {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+
+    .vaseItemText>.link {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .vaseItemText>.heading {
+        font-size: 20px;
+    }
+
+    .vaseItemText>.info {
+        font-size: 11px;
+        line-height: 20px;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .vaseItem {
+        gap: 65px;
+    }
+
+    .vaseItemText>.heading {
+        font-size: 18px;
+    }
+
+    .vaseItemText>.info {
+        line-height: 18px;
+    }
+}
+
+@media (max-width: 550px) {
+
+    .vaseItem {
+        gap: 20px;
+        grid-template-columns: 1fr;
+    }
+
+    .vaseItemImg>img {
+        width: 50%;
+    }
+
+    .vaseItemText {
+        padding: 10px;
+    }
+}
